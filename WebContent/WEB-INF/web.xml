@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Bnews</display-name>
+  <servlet>
+    <servlet-name>Home Admin</servlet-name>
+    <servlet-class>action.HomeAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home Admin</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List Cat Admin</servlet-name>
+    <servlet-class>action.ListCatAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List Cat Admin</servlet-name>
+    <url-pattern>/admin/list-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add Cat</servlet-name>
+    <servlet-class>action.AddCatAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add Cat</servlet-name>
+    <url-pattern>/admin/add-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Del Cat</servlet-name>
+    <servlet-class>action.DelCatAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Del Cat</servlet-name>
+    <url-pattern>/admin/del-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Edit Cat</servlet-name>
+    <servlet-class>action.EditCatAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit Cat</servlet-name>
+    <url-pattern>/admin/edit-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List News Admin</servlet-name>
+    <servlet-class>action.ListNewsAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List News Admin</servlet-name>
+    <url-pattern>/admin/list-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>List Users Admin</servlet-name>
+    <servlet-class>action.ListUsersAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>List Users Admin</servlet-name>
+    <url-pattern>/admin/list-users</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delete Users Admin</servlet-name>
+    <servlet-class>action.DeleteUsersAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete Users Admin</servlet-name>
+    <url-pattern>/admin/delete-users</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add Users Admin</servlet-name>
+    <servlet-class>action.AddUsersAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add Users Admin</servlet-name>
+    <url-pattern>/admin/add-users</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Edit Users Admin</servlet-name>
+    <servlet-class>action.EditUsersAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit Users Admin</servlet-name>
+    <url-pattern>/admin/edit-users</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add News Admin</servlet-name>
+    <servlet-class>action.AddNewsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add News Admin</servlet-name>
+    <url-pattern>/admin/add-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Edit News Admin</servlet-name>
+    <servlet-class>action.EditNewsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit News Admin</servlet-name>
+    <url-pattern>/admin/edit-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>search news</servlet-name>
+    <servlet-class>action.SearchNewsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>search news</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>delete1 news</servlet-name>
+    <servlet-class>action.DeLeTeNewsAction1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delete1 news</servlet-name>
+    <url-pattern>/delete1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Del News Admin</servlet-name>
+    <servlet-class>action.DelNewsAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Del News Admin</servlet-name>
+    <url-pattern>/admin/del-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>action.LoginAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>action.LogoutAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/admin/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>action.HomeAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>news public</servlet-name>
+    <servlet-class>action.ListNewsPublicAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>news public</servlet-name>
+    <url-pattern>/newspublic</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>list about</servlet-name>
+    <servlet-class>action.ListAboutAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>list about</servlet-name>
+    <url-pattern>/admin/list-about</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>edit about</servlet-name>
+    <servlet-class>action.EditAboutAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>edit about</servlet-name>
+    <url-pattern>/admin/edit-about</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>del about</servlet-name>
+    <servlet-class>action.DelAboutAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>del about</servlet-name>
+    <url-pattern>/admin/del-about</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>list contact</servlet-name>
+    <servlet-class>action.ListContactAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>list contact</servlet-name>
+    <url-pattern>/admin/list-contact</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>view contact</servlet-name>
+    <servlet-class>action.ViewContactAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>view contact</servlet-name>
+    <url-pattern>/admin/view-contact</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>deleteck contact</servlet-name>
+    <servlet-class>action.DeLeTeContactAction1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteck contact</servlet-name>
+    <url-pattern>/deletelck-contact</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>list advert</servlet-name>
+    <servlet-class>action.ListAdvertAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>list advert</servlet-name>
+    <url-pattern>/admin/list-advert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>list support</servlet-name>
+    <servlet-class>action.ListSupportAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>list support</servlet-name>
+    <url-pattern>/admin/list-support</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>edit support</servlet-name>
+    <servlet-class>action.EditSupportAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>edit support</servlet-name>
+    <url-pattern>/admin/edit-support</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>split pages</servlet-name>
+    <servlet-class>action.SplitPagesAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>split pages</servlet-name>
+    <url-pattern>/admin/split-pages</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>edit advert</servlet-name>
+    <servlet-class>action.EditAdvertAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>edit advert</servlet-name>
+    <url-pattern>/admin/edit-advert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>deleteck advert</servlet-name>
+    <servlet-class>action.DeleteCkAdvertAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteck advert</servlet-name>
+    <url-pattern>/deleteck-advert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>add advert</servlet-name>
+    <servlet-class>action.AddAdvertAdminAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>add advert</servlet-name>
+    <url-pattern>/admin/add-advert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>News by cat</servlet-name>
+    <servlet-class>action.ListNewsByCat</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>News by cat</servlet-name>
+    <url-pattern>/home/list-news-cat</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>detail news</servlet-name>
+    <servlet-class>action.DetailNewsByCatAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>detail news</servlet-name>
+    <url-pattern>/home/detail-news</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>detail about</servlet-name>
+    <servlet-class>action.DetailAboutAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>detail about</servlet-name>
+    <url-pattern>/home/detail-about</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>add contact</servlet-name>
+    <servlet-class>action.AddContactAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>add contact</servlet-name>
+    <url-pattern>/home/send-contact</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>search news cat</servlet-name>
+    <servlet-class>action.SearchNewByCat1Action</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>search news cat</servlet-name>
+    <url-pattern>/search-news-cat</url-pattern>
+  </servlet-mapping>
+</web-app>
